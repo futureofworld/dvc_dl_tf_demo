@@ -41,4 +41,4 @@ def prepare_model(model, classes, freeze_all, freeze_till, learning_rate):
 
     logging.info("custom model is compiled and ready to be trainde")
 
-    return model
+    return full_model
